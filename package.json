@@ -1,0 +1,31 @@
+{
+  "name": "bare-format",
+  "version": "1.0.0",
+  "description": "String formatting for JavaScript",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "standard && bare test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-format.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-format/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-format#readme",
+  "dependencies": {
+    "bare-inspect": "^3.0.0"
+  },
+  "devDependencies": {
+    "brittle": "^3.5.0",
+    "standard": "^17.0.0"
+  }
+}
