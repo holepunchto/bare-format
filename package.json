@@ -9,7 +9,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "standard && bare test.js"
+    "test": "prettier . --check && bare test.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "brittle": "^3.5.0",
-    "standard": "^17.0.0"
+    "prettier": "^3.4.2",
+    "prettier-config-standard": "^7.0.0"
   }
 }

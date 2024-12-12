@@ -1,12 +1,12 @@
 const inspect = require('bare-inspect')
 
-module.exports = exports = function format (...args) {
+module.exports = exports = function format(...args) {
   return exports.formatWithOptions({}, ...args)
 }
 
 exports.format = exports
 
-exports.formatWithOptions = function formatWithOptions (opts, ...args) {
+exports.formatWithOptions = function formatWithOptions(opts, ...args) {
   const format = args[0]
 
   let result = ''
