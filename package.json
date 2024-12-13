@@ -9,7 +9,10 @@
     },
     "./package": "./package.json"
   },
-  "files": ["index.js", "index.d.ts"],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "prettier . --check && bare test.js"
   },
