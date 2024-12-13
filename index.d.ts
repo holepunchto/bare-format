@@ -1,11 +1,12 @@
-declare function format(...args: [format: string, ...any]): string
+declare function format(format: string, ...args: unknown[]): string
 
 declare namespace format {
-  export function format(...args: [format: string, ...any]): string
+  export function format(format: string, ...args: unknown[]): string
 
   export function formatWithOptions(
     opts: {},
-    ...args: [format: string, ...any]
+    format: string,
+    ...args: unknown[]
   ): string
 }
 
