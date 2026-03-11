@@ -36,7 +36,7 @@ exports.formatWithOptions = function formatWithOptions(opts, ...args) {
                   tmp = value
                   break
                 case 'bigint':
-                  tmp = inspect(value, { ...opts, color: false })
+                  tmp = inspect(value, { ...opts, colors: false })
                   break
                 default:
                   tmp = String(value)
@@ -54,10 +54,10 @@ exports.formatWithOptions = function formatWithOptions(opts, ...args) {
                   tmp = NaN
                   break
                 case 'bigint':
-                  tmp = inspect(value, { ...opts, color: false })
+                  tmp = inspect(value, { ...opts, colors: false })
                   break
                 default:
-                  tmp = inspect(Number(value), { ...opts, color: false })
+                  tmp = inspect(Number(value), { ...opts, colors: false })
                   break
               }
 
@@ -72,10 +72,10 @@ exports.formatWithOptions = function formatWithOptions(opts, ...args) {
                   tmp = NaN
                   break
                 case 'bigint':
-                  tmp = inspect(value, { ...opts, color: false })
+                  tmp = inspect(value, { ...opts, colors: false })
                   break
                 default:
-                  tmp = inspect(parseInt(value, 10), { ...opts, color: false })
+                  tmp = inspect(parseInt(value, 10), { ...opts, colors: false })
                   break
               }
 
@@ -90,7 +90,7 @@ exports.formatWithOptions = function formatWithOptions(opts, ...args) {
                   tmp = NaN
                   break
                 default:
-                  tmp = inspect(parseFloat(value), { ...opts, color: false })
+                  tmp = inspect(parseFloat(value), { ...opts, colors: false })
                   break
               }
 
