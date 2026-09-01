@@ -15,6 +15,10 @@ format('Hello %s', 'world!')
 // Hello world!
 ```
 
+## API
+
+See the [`bare-format` reference](https://docs.pears.com/reference/bare/modules/bare-format).
+
 ## License
 
 Apache-2.0
